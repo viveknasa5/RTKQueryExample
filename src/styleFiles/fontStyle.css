@@ -1,0 +1,196 @@
+/*--------------------------------------------------------------
+# Font and its size
+--------------------------------------------------------------*/
+
+.h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: -1.28px;
+  /* @include phone {
+    font-size: 26px;
+  } */
+
+  /* // @media only screen and (max-width:575px){
+  //   font-size: 18px;
+  // } */
+}
+
+.h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 125%;
+  /* @include phone {
+    font-size: 18px;
+  }
+  // @include phone-m{
+  //   font-size: 48px;
+  // } */
+}
+
+.h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 144.444%;
+
+  /* @include tab {
+    font-size: 16px;
+  }
+  @include phonev {
+    font-size: 14px;
+  } */
+}
+
+.h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.1px;
+
+  /* @include phone {
+    font-size: 12px;
+  } */
+
+  /* @include phonev {
+    font-size: 10px;
+  }
+  // @include phone-m{
+  //   font-size: 24px;
+  // } */
+}
+
+.h5 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 142.857%;
+  /* @include phonev {
+    font-size: 10px;
+  }
+  // @include phone-m{
+  //   font-size: 22px;
+  // } */
+}
+
+.h6 {
+  font-size: 12px;
+  line-height: 150%;
+  font-weight: 400;
+
+  /* @include phone {
+    font-size: 10px;
+  } */
+}
+
+p,
+.p {
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.fs-36 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 122%;
+  letter-spacing: -0.72px;
+
+  /* @include tabv {
+    font-size: 26px;
+  }
+  @include phone {
+    font-size: 20px;
+  } */
+}
+
+.fs-60 {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1px;
+  /* @include tabv {
+    font-size: 42px;
+  } */
+}
+
+.fs-42 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 95.238%;
+  letter-spacing: -0.5px;
+  /* @include tab {
+    font-size: 34px;
+  }
+  @include tabv {
+    font-size: 28px;
+  }
+  @include phone {
+    font-size: 24px;
+  } */
+}
+
+.fs-15 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: -0.1px;
+  /* @include phonev {
+    font-size: 12px;
+  } */
+}
+
+.fs-20 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.1px;
+  /* @include tab {
+    font-size: 16px;
+  } */
+}
+
+.fs-24 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 166%;
+  letter-spacing: -0.1px;
+  /* @include phone {
+    font-size: 16px;
+  } */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  outline: none !important;
+  box-shadow: none !important;
+
+  /* &:hover {
+    color: black;
+    text-decoration: none;
+  } */
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.f-w400 {
+  font-weight: 400;
+}
+
+.f-w500 {
+  font-weight: 500;
+}
+
+.f-w600 {
+  font-weight: 600;
+}
+
+.f-w700 {
+  font-weight: 700;
+}
+.f-w800 {
+  font-weight: 800;
+}
